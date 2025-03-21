@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+.similarpage {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  color: #475569;
+  font-family: roboto;
+}
+.load {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.eachimg {
+  height: 500px;
+  width: 300px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.bottom {
+  padding: 20px;
+}
+.ul1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.icons {
+  width: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart {
+  background-color: #3b82f6;
+  border-radius: 10px;
+  color: white;
+  border-width: 0px;
+  padding: 10px;
+}
+span {
+  font-weight: bold;
+}
+.row {
+  display: flex;
+  align-items: center;
+}

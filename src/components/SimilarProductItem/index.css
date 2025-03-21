@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 10px;
+}
+.similar {
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+}
+li {
+  margin-left: 0px;
+}
+.rate {
+  background-color: #3b82f6;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  width: 50px;
+  margin-right: 5px;
+}
+.star {
+  height: 25px;
+  width: 25px;
+}
+.price {
+  margin-right: 5px;
+}
+.bold {
+  font-weight: bold;
+}
