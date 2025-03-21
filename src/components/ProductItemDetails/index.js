@@ -104,11 +104,9 @@ class ProductItemDetails extends Component {
         src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-error-view-img.png"
         alt="failure view"
       />
-      <h1 role="heading">Product Not Found</h1>
+      <h1>Product Not Found</h1>
       <Link to="/products">
-        <button role="button" type="button">
-          Continue Shopping
-        </button>
+        <button type="button">Continue Shopping</button>
       </Link>
     </div>
   )
@@ -122,9 +120,7 @@ class ProductItemDetails extends Component {
           <div className="top">
             <img className="eachimg" src={productObj.imageUrl} alt="product" />
             <div className="right">
-              <h1 role="heading" className="bold">
-                {productObj.title}
-              </h1>
+              <h1 className="bold">{productObj.title}</h1>
               <p className="bold">RS {productObj.price}/-</p>
               <div>
                 <div className="row">
